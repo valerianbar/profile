@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color:#AFD3E2;
+  color:#146C94;
+  text-align:center;
+
+}
+h1,h2,h3{
+  font-size:42px
+}
+li{
+  display:inline;
+}
+ul{
+  padding:0 auto;
+}
+a{
+  text-decoration:none;
+  background-color:#AFD3E2;
+  color:#146C94;
+  font-size:18px;
+  font-weight:bold;
+  padding:15px;
+  border-radius:5px;
+  box-shadow:0 0 16px rgba(0,0,0,0.1);
+  transition:0,3s ease
+}
+a:hover{
+  background-color:#FF9B50;
+}
+#profile-pic{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  border:3px solid #146C94;
+}
+.card{
+  background-color:#F6F1F1;
+  padding:20px;
+  width:500px;
+  margin:25px auto;
+  border-radius:3px;
+  border:3px solid #146C94;
+
+}
